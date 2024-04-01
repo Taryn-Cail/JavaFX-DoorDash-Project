@@ -1,6 +1,8 @@
 # 1083-JavaFX-Final-Project
 A game that involves selecting doors and discovering prizes, created with the help of ChatGPT as part of a final project.
 
+Credit
+Created in collaboration with peers, animation and all drawings were done by Taryn Cail.
 
 Game Description
 The game DoorDash involves five sets of doors, each door hiding an outcome behind itself. You start the game with 0 coins and as you progress through the doors you can increase or decrease your coins which will correlate to a VB’s prize.
