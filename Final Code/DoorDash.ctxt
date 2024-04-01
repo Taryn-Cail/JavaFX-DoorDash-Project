@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=DoorDash
+comment0.text=\r\n\ CS1083\ -\ JavaFX\ Project\ -\ Door\ Dash\r\n\ \r\n\ Purpose\:\ To\ create\ a\ JavaFX\ game\ for\ Dr\ McNally's\ fortnite\ stream.\r\n\ \r\n\ Game\:\ Door\ Dash\r\n\ \r\n\ How\ to\ Play\:\ At\ the\ start\ of\ each\ round\ the\ player\ selects\ a\ door,\ once\ chosen,\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ door\ will\ reveal\ what\u2019s\ behind\ it,\ the\ options\ are\ -1\ coin,\ 0\ coins\ ,\ +1\ coin,\ +2\ coins.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ Once\ the\ player\ makes\ it\ through\ all\ four\ rounds\ of\ doors,\ they\ can\ choose\ to\ cash\ out\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ their\ jar\ of\ coins\ and\ end\ the\ game,\ or\ they\ can\ forfeit\ their\ earnings\ and\ attempt\ to\ win\ higher\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ prizes\ in\ the\ Lightning\ Round.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ During\ the\ lighting\ round\ there\ is\ a\ set\ of\ four\ doors,\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ behind\ two\ doors\ is\ a\ Lose\ Everything\ option,\ behind\ another\ is\ a\ Keep\ your\ Current\ Jar,\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ behind\ the\ last\ Double\u2019s\ your\ Coins.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ Depending\ on\ your\ final\ amount\ of\ coins\ it\ will\ correspond\ with\ a\ VBucks\ prize.\r\n\r\n\ \r\n\ @authors\ -\ Zach\ Davis,\ Nicolas\ Serrano,\ Taryn\ Cail\r\n\ @version\ -\ 20.4\r\n\ @date\ -\ Winter\ 2024\r\n
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment2.params=primaryStage
+comment2.target=void\ lightningRound(javafx.stage.Stage)
+comment2.text=\r\n\ Method\:\ lightningRound\r\n\ \r\n\ Purpose\:\ To\ start\ the\ lightning\ round\ once\ the\ player\ has\ completed\r\n\ \ \ \ \ \ \ \ \ \ 4\ rounds\ in\ the\ regular\ round\ and\ choses\ to\ continue\ on.\r\n
+comment3.params=
+comment3.target=javafx.scene.control.Button\ createBottomButton()
+comment3.text=\r\n\ Method\:\ Create\ Bottom\ Button\r\n\r\n\ Purpose\:\ To\ create\ the\ buttons\ for\ below\ the\ doors\ that\ have\ a\ blue\ \r\n\ \ \ \ \ \ \ \ \ \ background\ until\ an\ image\ is\ inserted\ and\ have\ a\ pre-set\ \r\n\ \ \ \ \ \ \ \ \ \ size.\r\n
+comment4.params=increment
+comment4.target=void\ cycleJarImage(int)
+comment4.text=\r\n\ Method\:\ Cycle\ Jar\ Array\r\n\r\n\ Purpose\:\ Cycle\ through\ the\ Jar\ Array\ depending\ on\ the\ increment\r\n\ \ \ \ \ \ \ \ \ \ given.\r\n
+comment5.params=index
+comment5.target=void\ loseEverythingJar(int)
+comment5.text=\r\n\ Method\:\ Lose\ Everything\ Jar\r\n\r\n\ Purpose\:\ Change\ the\ jar\ array\ to\ zero\ so\ it\ looks\ empty.\r\n
+comment6.params=index
+comment6.target=void\ doublePointsJar(int)
+comment6.text=\r\n\ Method\:\ Double\ Points\ Jar\r\n\r\n\ Purpose\:\ Change\ the\ jar\ array\ to\ full.\r\n
+numComments=7
